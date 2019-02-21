@@ -8,3 +8,9 @@ body {
 .mt-5 {
     margin: 10rem;
 }
+
+
+/* Utility Classes */
+.border {
+    border: 2px solid #ffffff;
+}
