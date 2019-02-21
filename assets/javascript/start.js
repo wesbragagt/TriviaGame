@@ -2,6 +2,6 @@
 
 $(document).ready(function () {
     $("#start").on("click", function () {
-        $("#content").load("../../index.html")
+        $("#content").load("../../index.html");
     })
 })

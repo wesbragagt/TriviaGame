@@ -16,7 +16,7 @@ function decrement() {
     if (timer === 0) {
         stop();
         alert('time out')
-        $("#content").load("../../end.html")
+        $("#content").load("../../end.html");
     }
 }
 
