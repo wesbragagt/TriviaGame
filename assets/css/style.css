@@ -1,0 +1,10 @@
+body {
+    background: url(../images/fancy-cushion/fancy-cushion.png) no-repeat center fixed;
+    background-size: cover;
+    
+
+}
+
+.mt-5 {
+    margin: 10rem;
+}
