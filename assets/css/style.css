@@ -5,11 +5,11 @@ body {
 
 }
 /* margin settings */
-.mr-1 {
+/* .mr-1 {
 margin-right: 5rem!important;
-}
+} */
 .mt-5 {
-    margin: 10rem;
+    margin-top: 10rem!important;
 }
 
 

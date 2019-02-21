@@ -1,7 +1,10 @@
+// START BUTTON WHEN CLICKED RUN THE GAME
+
+
 // 1. Countdown
 // 30 seconds when it hit zero stop game
 
-var timer = 5;
+var timer = 30;
 
 var intervalId;
 
@@ -9,10 +12,11 @@ var intervalId;
 
 function decrement() {
     timer--;
-    $("#countdown").text(timer);
+    $("#countdown").text(timer + "s");
     if (timer === 0) {
         stop();
         alert('time out')
+        $("#content").load("../../end.html")
     }
 }
 
