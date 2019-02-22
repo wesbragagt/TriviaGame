@@ -29,7 +29,7 @@ function stop() {
 
 $(document).ready(function () {
 
-    intervalId = setInterval(decrement, 1000);
+    // intervalId = setInterval(decrement, 1000);
 
 
 })
